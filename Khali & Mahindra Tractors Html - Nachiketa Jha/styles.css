@@ -1,0 +1,128 @@
+*{
+  /*Font-family*/
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+  /*CSS Backgrounds*/
+    background-color: rgb(64, 25, 80);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*OVERFLOW*/
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    /*ALIGN*/
+    text-align: center;
+    /*Padding*/
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #03586d;
+    
+  }
+
+
+
+  #wallpaper img{
+      width: 70%;
+      /*Margin*/
+      margin-left: 15%;
+      
+  }
+
+  #newsHead{
+      text-align: center;
+      /*Border*/
+      border-bottom: 1px solid white;
+      padding-bottom: 1rem;
+  }
+
+  #news{
+      margin: 4rem;
+      /*DISPLAY*/
+      display: flex;
+      background-color: rgb(22, 22, 22);
+      
+  }
+  #news div{
+    margin: 2rem;
+  }
+  #news div img{
+    /*CSS Heigth Width*/
+      height: 20em;
+      width: 30em;
+      /*OPACITY*/
+      opacity: 0.5;
+      /*POSITION*/
+      position: relative;
+      
+  }
+  #news div img:hover{
+      opacity: 1;
+  }
+
+  #news div h2{
+    /*display: inline-block;*/
+    display: inline-block;
+  }
+  #news div p{
+    display: inline-block;
+  }
+  #btn{
+      height: 3rem;
+      width: 10rem;
+      background-color: rgb(109, 109, 109);
+      margin-top: 1rem;
+      /*OUTLINE*/
+      outline: #009213 solid 1px;
+  }
+  #btn:hover{
+      background-color: rgb(36, 36, 36);
+  }
+#contHead{
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 2rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: #111111; 
+    color: rgb(255, 255, 255);
+  }
+  tr:nth-child(odd) {
+    background-color: #252525;
+  }
+  tr:nth-child(even) {
+    background-color: #424242;
+  }
